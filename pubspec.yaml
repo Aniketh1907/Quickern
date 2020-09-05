@@ -1,0 +1,32 @@
+name: quickern
+description: A heaven for learners.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  gradient_app_bar: ^0.0.1
+  curved_navigation_bar:
+
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  rflutter_alert:
+    git: git://github.com/RatelHub/rflutter_alert.git
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/splash1.png
+    - images/img1.png
+    - images/log.png
